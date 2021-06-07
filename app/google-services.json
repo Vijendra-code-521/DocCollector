@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840221657096",
+    "project_id": "doc-collector-84b5e",
+    "storage_bucket": "doc-collector-84b5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840221657096:android:cd76e8662c0d9603d069bd",
+        "android_client_info": {
+          "package_name": "com.example.doccollector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840221657096-kc43bbqfk3si2hldqkr3vfb0h3tq5f81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvX1LsBqGpKFKEeghwZWjNBWQndrgwQ14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840221657096-kc43bbqfk3si2hldqkr3vfb0h3tq5f81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

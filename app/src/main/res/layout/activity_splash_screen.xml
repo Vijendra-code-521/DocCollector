@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:id="@+id/linearLayoutSplashScreen1">
+    <View
+        android:id="@+id/viewInSplashScreen1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FF12DDC9"
+        />
+    <ImageView
+        android:id="@+id/logoINsplashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@drawable/ic_logodocument__splash_screen_"
+        tools:ignore="VectorDrawableCompat" />
+    <TableRow
+        android:id="@+id/upperLineInSplashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="60dp"
+        android:background="#FFB300"/>
+
+    <TextView
+        android:id="@+id/docCollectorTextView_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/doc_collector"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#111212"/>
+    <TableRow
+        android:id="@+id/belowLineSplashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFB300"/>
+
+</LinearLayout>

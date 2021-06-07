@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailLogin"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:id="@+id/linearLayoutLoginPage1">
+
+    <LinearLayout
+        android:id="@+id/lineaLayoutEmailLoginPage"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:background="#12DDC9"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/welcomeTextViewLoginpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to"
+            android:textSize="20sp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:layout_marginStart="24dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/docCollectorTextViewLoginpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/doc_collector"
+            android:textSize="35sp"
+            android:layout_marginStart="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/loginContinueTextView_loginpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_login_to_continue"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_marginStart="24dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/InputEmailInLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/round_layout"
+            android:drawableEnd="@drawable/email_icon"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#0C0C0C" />
+
+        <EditText
+            android:id="@+id/InputLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/round_layout"
+            android:drawableEnd="@drawable/password_lock_icon"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#090909" />
+
+        <Button
+            android:id="@+id/Login_btn_login_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_round"
+            android:text="@string/login"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#121111" />
+
+        <TextView
+            android:id="@+id/forgot_password_login_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="24dp"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewInLoginPage"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/ic_wave__15_"/>
+    <TextView
+        android:id="@+id/OR_text_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/Sign_up_btn_loginPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_layout"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF12DDC9"/>
+
+
+
+</LinearLayout>

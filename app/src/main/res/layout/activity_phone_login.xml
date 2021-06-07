@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneLogin"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:id="@+id/LinearLayoutPhoneLogin1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="618dp"
+        android:background="#FF12DDC9"
+        android:orientation="vertical"
+        android:id="@+id/LinearLayoutPhoneLogin2">
+
+        <TextView
+            android:id="@+id/docCollectorTextViewInPhoneLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/doc_collector"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/loginWithphoneTextviewPhoneLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/login_with_your_registered"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/loginWithphoneTextviewContactInPhoneLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/contact_number"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/InputPhoneNoInLoginPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/round_layout"
+            android:drawableEnd="@drawable/phone_icon_black"
+            android:hint="@string/mobile_number"
+            android:inputType="number|phone"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="#FDD835"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/send_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_round"
+            android:text="@string/send_otp"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#121111" />
+
+        <TableRow
+            android:id="@+id/tableRowLoginPhone1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/loginWithphoneTextvieEenterotp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/enter_received_otp_below"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/enter_otp_field"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/round_layout"
+            android:hint="@string/enter_otp"
+            android:inputType="number|phone"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="#FDD835"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/verify_otp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_round"
+            android:text="@string/verify"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#121111" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/ViewLoginPhone2"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:background="@drawable/ic_wave__15_" />
+
+</LinearLayout>

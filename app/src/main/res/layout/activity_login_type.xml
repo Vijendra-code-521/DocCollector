@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectLoginType"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:id="@+id/LinearLayoutLoginType1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#FF12DDC9"
+        android:id="@+id/LinearLayoutLoginType2">
+        <ImageView
+
+            android:id="@+id/imgViewLogoInSelectType"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_logodocument__1_"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_selectType_svg"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:background="@drawable/ic_wave__15_">
+
+    </View>
+    <LinearLayout
+        android:id="@+id/LinearLayoutLoginType3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/docCollectorTextViewSelectType"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/doc_collector"
+            android:textColor="#FF12DDC9"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/appPurposeTextViewselectType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_and_access_your_document"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/appPurposeTextView2SelectType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from_anywhere"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/Sign_with_mailInLoginType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_round_yellow"
+            android:drawableEnd="@drawable/email_icon"
+            android:paddingEnd="10dp"
+            android:text="@string/sign_in_with_mail"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FF12DDC9" />
+
+        <Button
+        android:id="@+id/Sign_in_with_phone_btn_login_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/btn_round_yellow"
+        android:text="sign in with phone"
+        android:drawableEnd="@drawable/phone_icon_black"
+        android:paddingEnd="10dp"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF12DDC9"/>
+    <Button
+        android:id="@+id/create_account_btn_loginType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/btn_round_yellow"
+        android:text="@string/create_account"
+        android:drawableEnd="@drawable/ic_baseline_add_"
+        android:paddingEnd="10dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF12DDC9"/>
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.about.AboutUsFragment"
+    android:id="@+id/ScrollViewAboutUs1">
+    <LinearLayout
+        android:id="@+id/LinearLayoutAboutUs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/LinearLayoutAboutUs2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/logoDocInAboutUs"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_logodocument__1_"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/TitleDoccollectorinAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Doc Collector"
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TableRow
+            android:id="@+id/tableRowAboutUs1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="2dp"
+            android:background="#039BE5"/>
+
+
+        <TextView
+            android:id="@+id/FoundersTextViewInAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Founders"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"/>
+        <LinearLayout
+            android:id="@+id/LinearLayoutAboutUs3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tanmayImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/tanmayimage"
+           android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/TanmayName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tanmay Godse"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutAboutUs4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vaishali_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/vaishali"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/vaishaliName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vaishali Mandloi"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayoutAboutUs5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vijendraImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/vijendraimage"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/vijendraName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vijendra Vishwakarma"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/aboutUsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/foundersInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Founded in 2021 by Tanmay Godse , Vaishali Mandloi and Vijendra Vishwakarma."
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/aboutDoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Doc Collector"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/docDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This application will save your important
+        documents on cloud storage.and it will give you access of those documents from anywhere , through your registered
+        email and password. After registration process  you can also sign in using your contact no."
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/noteForUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note for users"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/userNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="At user's end you can upload your doc images but if you upload your image on a same image where you already uploaded before . this will not save older image , your new image will be overrided."
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

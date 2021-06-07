@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_document">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.doccollector.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_document"
+        android:name="com.example.doccollector.ui.document.DocumentFragment"
+        android:label="Documents"
+        tools:layout="@layout/fragment_document" />
+
+    <fragment
+        android:id="@+id/nav_upload"
+        android:name="com.example.doccollector.ui.upload.UploadFragment"
+        android:label="Upload"
+        tools:layout="@layout/fragment_upload" />
+    <fragment
+        android:id="@+id/nav_aboutUs"
+        android:name="com.example.doccollector.ui.about.AboutUsFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.doccollector.ui.help.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

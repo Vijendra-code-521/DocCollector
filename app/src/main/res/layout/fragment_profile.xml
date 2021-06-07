@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:background="@drawable/ic_wave__15_">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="133dp"
+            android:src="@drawable/manimage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.634" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"
+        android:text="Full Name" />
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:textColor="#FF12DDC9"
+        android:text="Jhone Doe" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="30dp"
+
+        android:layout_marginStart="30dp"
+        android:background="#FF12DDC9"/>
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Email Address" />
+    <TextView
+        android:id="@+id/textViewuserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:textColor="#FF12DDC9"
+        android:text="jhon@gmail.com" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:background="#FF12DDC9"/>
+    <TextView
+        android:id="@+id/textViewcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Contact No" />
+
+    <TextView
+        android:id="@+id/textViewuserContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="9999999999"
+        android:textColor="#FF12DDC9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#FF12DDC9"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_round"
+        android:backgroundTint="@color/black"
+        android:text="logout"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/black" />
+
+
+</LinearLayout>

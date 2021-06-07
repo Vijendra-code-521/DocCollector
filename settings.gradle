@@ -1,0 +1,2 @@
+rootProject.name = "Doc Collector"
+include ':app'
